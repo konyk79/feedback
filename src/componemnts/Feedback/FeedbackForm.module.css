@@ -1,0 +1,34 @@
+.form-input {
+  width: 557px;
+  height: 93px;
+  color: #2d2d2d;
+  background: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  position: absolute;
+  overflow: hidden;
+  padding: 0 46px;
+  font-family: "Apercu Arabic Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+}
+.input-invalid {
+  border: 1px solid #b40e0e !important;
+  color: #b40e0e !important;
+}
+.form-input:focus {
+  outline: none;
+}
+
+.form-input::placeholder {
+  color: #2d2d2d;
+  opacity: 1;
+  text-align: left;
+  font-family: Apercu Arabic Pro;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+}
