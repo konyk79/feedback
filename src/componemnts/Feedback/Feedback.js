@@ -45,7 +45,7 @@ const Feedback = () => {
     dispatch(formActions.setModalMessage(""));
     requestFunction(
       {
-        url: "http://localhost:3001/messages",
+        url: process.env.REACT_APP_BACKEND_URL,
         method: "POST",
         body: JSON.stringify(data),
         headers: { "Content-Type": "application/json" },
